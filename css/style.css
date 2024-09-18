@@ -1,14 +1,9 @@
-
-
 nav {
     background-color: rgba(28, 26, 29, 0.863);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    /* padding-left: 20px; */
-    /* padding-right: 20px; */
-    /* padding-bottom: 20px; */
 }
 
 #nav-items {
@@ -51,7 +46,7 @@ header {
 
 }
 
-input {
+.search-box {
     padding: 15px;
     width: 60%;
 }
@@ -104,9 +99,13 @@ input {
     width: 100%;
 }
 
-.image-container {width: 60%;}
+.image-container {
+    width: 60%;
+}
 
-.image-container img{ width: 100%;}
+.image-container img {
+    width: 100%;
+}
 
 .home-item img {
     width: 100%;
@@ -114,54 +113,90 @@ input {
 
 .flex-home {
     display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 1fr;
-grid-column-gap: 50px;
-grid-row-gap: 0px;
-margin-bottom: 4rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    margin-bottom: 4rem;
 }
 
-.home-item a{ color: red; }
-
-.home-item p{ color: gray;}
-
-
-.before-footer { background-color: rgba(0, 0, 0, 0.897);
+.home-item a {
+    color: red;
 }
 
-.before-footer h1{ color: white; padding-bottom: 20px; padding-top: 20px;}
-.before-footer p{ color: white; padding-bottom: 20px; text-align: center;}
-.before-footer { padding-bottom: 50%;}
+.home-item p {
+    color: gray;
+}
 
+
+.before-footer {
+    background-color: rgba(0, 0, 0, 0.897);
+
+}
+
+.before-footer h1 {
+    color: white;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.before-footer p {
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
 
 .button-lookalike {
-    background-color: #050002;
-     color: white;
-     padding: 40px;
-     justify-content: center;
-     /* align-items: center; */
-     /* padding-bottom: 50px; */
-     margin: 80px;
-     margin-top: -120px;
-     height: 50vh;
-     
-
-
-/* display: grid; */
-/* grid-template-columns: repeat(3, 1fr); */
-/* grid-template-rows: 1fr; */
-/* grid-column-gap: 25px; */
-/* grid-row-gap: px; */
-/* padding-left: 40px; */
-/* padding-right: 40px; */
-/* padding-top: 50px; */
-/* padding-bottom: 50px; */
-/* width: 60%; */
-/* justify-content: center; */
+    color: white;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
 }
 
-.submit-buttonlookalike {background-color: red;}
+.mortgage-input {
+    padding: 15px;
+}
 
+.submit-buttonlookalike {
+    background-color: red;
+    padding: 16px;
+}
+
+.success-stories {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 80px;
+    gap: 50px;
+}
+
+.success-stories p {
+    color: gray;
+}
+
+.ss-left {
+    width: 500px;
+}
+
+.ss-lefth1 {
+    font-size: 50px;
+}
+
+.ss-anchor {
+    color: red;
+}
+
+
+
+
+
+.mondy {
+    width: 400px;
+}
 
 .footer {
     display: flex;
@@ -176,8 +211,7 @@ margin-bottom: 4rem;
     color: rgba(255, 255, 255, 0.911);
     height: 45vh;
     padding: 50px;
-    /* padding-top: -200px; */
-    margin-top: -200px;
+    margin-top: 80px;
 }
 
 .footer-left {
@@ -185,7 +219,6 @@ margin-bottom: 4rem;
     border-color: #050002;
     border-style: solid;
     border-left: #090003;
-    /* border-right: #090003; */
     border-top: #090003;
     border-bottom: #090003;
 
